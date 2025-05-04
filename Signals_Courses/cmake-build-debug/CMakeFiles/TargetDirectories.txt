@@ -1,0 +1,3 @@
+C:/STM32_WorkSpace/Signals_Courses/cmake-build-debug/CMakeFiles/Signals_Courses.elf.dir
+C:/STM32_WorkSpace/Signals_Courses/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/STM32_WorkSpace/Signals_Courses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
