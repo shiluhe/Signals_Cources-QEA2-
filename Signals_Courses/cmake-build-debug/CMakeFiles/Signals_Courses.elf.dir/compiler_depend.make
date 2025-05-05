@@ -45,7 +45,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/adc.c.obj: C:/STM32_WorkSpace/Signal
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/dac.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/dac.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/dac.h \
@@ -91,7 +92,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/dac.c.obj: C:/STM32_WorkSpace/Signal
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/dma.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/dma.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/dma.h \
@@ -137,7 +139,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/dma.c.obj: C:/STM32_WorkSpace/Signal
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/fsmc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/fsmc.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/fsmc.h \
@@ -183,7 +186,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/fsmc.c.obj: C:/STM32_WorkSpace/Signa
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/gpio.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/gpio.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/gpio.h \
@@ -229,7 +233,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/gpio.c.obj: C:/STM32_WorkSpace/Signa
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/main.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/main.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/main.h \
@@ -275,11 +280,13 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/main.c.obj: C:/STM32_WorkSpace/Signa
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/adc.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/main.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/dac.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/dma.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/tim.h \
+  C:/STM32_WorkSpace/Signals_Courses/Core/Inc/usart.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/gpio.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/fsmc.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdio.h \
@@ -379,7 +386,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/STM32_Wo
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/stm32f4xx_it.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/main.h \
@@ -425,6 +433,7 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/STM32_WorkSpa
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/stm32f4xx_it.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/syscalls.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/syscalls.c \
@@ -537,7 +546,8 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/STM32_Wor
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/tim.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/tim.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/tim.h \
@@ -583,7 +593,55 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/tim.c.obj: C:/STM32_WorkSpace/Signal
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/usart.c \
+  C:/STM32_WorkSpace/Signals_Courses/Core/Inc/usart.h \
+  C:/STM32_WorkSpace/Signals_Courses/Core/Inc/main.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  C:/STM32_WorkSpace/Signals_Courses/Core/Inc/stm32f4xx_hal_conf.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/core_cm4.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_version.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_compiler.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_gcc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/mpu_armv7.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -627,7 +685,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -671,7 +730,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -715,7 +775,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -759,7 +820,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -803,7 +865,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -847,7 +910,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -891,7 +955,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -935,7 +1000,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -979,7 +1045,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1023,7 +1090,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1067,7 +1135,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1111,7 +1180,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1155,7 +1225,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1199,7 +1270,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1243,7 +1315,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1287,7 +1360,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1331,7 +1405,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1375,7 +1450,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1419,7 +1495,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -1463,7 +1540,53 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  C:/STM32_WorkSpace/Signals_Courses/Core/Inc/stm32f4xx_hal_conf.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/core_cm4.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_version.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_compiler.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_gcc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/mpu_armv7.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 
@@ -1509,7 +1632,8 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.c \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350_fsmc.h \
@@ -1557,6 +1681,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj: C:/STM32
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350_font.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdio.h \
@@ -1618,12 +1743,11 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj: C:/
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Src/adc.c:
-
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/reent.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
 
@@ -1642,6 +1766,8 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-
 C:/STM32_WorkSpace/Signals_Courses/Core/Inc/dac.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Inc/stm32f4xx_hal_conf.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
 
@@ -1763,11 +1889,15 @@ C:/STM32_WorkSpace/Signals_Courses/Core/Inc/fsmc.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Inc/tim.h:
 
+C:/STM32_WorkSpace/Signals_Courses/Core/Inc/usart.h:
+
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/time.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/reent.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/_time.h:
 
@@ -1887,6 +2017,8 @@ C:/STM32_WorkSpace/Signals_Courses/Core/Src/sysmem.c:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Src/tim.c:
 
+C:/STM32_WorkSpace/Signals_Courses/Core/Src/usart.c:
+
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c:
@@ -1920,6 +2052,8 @@ C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:
+
+C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c:
 

@@ -236,9 +236,23 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Signals_Courses.elf.dir/Core/Src/tim.c.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\STM32_WorkSpace\Signals_Courses\Core\Src\tim.c -o CMakeFiles\Signals_Courses.elf.dir\Core\Src\tim.c.s
 
+CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
+CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/usart.c
+CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Core\Src\usart.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Core\Src\usart.c
+
+CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\STM32_WorkSpace\Signals_Courses\Core\Src\usart.c > CMakeFiles\Signals_Courses.elf.dir\Core\Src\usart.c.i
+
+CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\STM32_WorkSpace\Signals_Courses\Core\Src\usart.c -o CMakeFiles\Signals_Courses.elf.dir\Core\Src\usart.c.s
+
 CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Startup/startup_stm32f407zgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Signals_Courses.elf.dir\Core\Startup\startup_stm32f407zgtx.s.obj -c C:\STM32_WorkSpace\Signals_Courses\Core\Startup\startup_stm32f407zgtx.s
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.s: cmake
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -529,10 +543,24 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
@@ -546,7 +574,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i: cmake_force
@@ -560,7 +588,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\atk_md0350\atk_md0350.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\atk_md0350\atk_md0350.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\atk_md0350\atk_md0350.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.i: cmake_force
@@ -574,7 +602,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.s: cmake_forc
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj: CMakeFiles/Signals_Courses.elf.dir/flags.make
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj: C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350_fsmc.c
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj: CMakeFiles/Signals_Courses.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj -MF CMakeFiles\Signals_Courses.elf.dir\Drivers\atk_md0350\atk_md0350_fsmc.c.obj.d -o CMakeFiles\Signals_Courses.elf.dir\Drivers\atk_md0350\atk_md0350_fsmc.c.obj -c C:\STM32_WorkSpace\Signals_Courses\Drivers\atk_md0350\atk_md0350_fsmc.c
 
 CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.i: cmake_force
@@ -599,6 +627,7 @@ Signals_Courses_elf_OBJECTS = \
 "CMakeFiles/Signals_Courses.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Core/Src/tim.c.obj" \
+"CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" \
@@ -620,6 +649,7 @@ Signals_Courses_elf_OBJECTS = \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
+"CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" \
 "CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj" \
@@ -640,6 +670,7 @@ Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Core/Src/syscalls.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Core/Src/sysmem.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Core/Src/system_stm32f4xx.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Core/Src/tim.c.obj
+Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Core/Src/usart.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
@@ -661,6 +692,7 @@ Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Dr
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj
@@ -668,7 +700,7 @@ Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_m
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/build.make
 Signals_Courses.elf: C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable Signals_Courses.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable Signals_Courses.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Signals_Courses.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/STM32_WorkSpace/Signals_Courses/cmake-build-debug/Signals_Courses.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/STM32_WorkSpace/Signals_Courses/cmake-build-debug/Signals_Courses.bin"

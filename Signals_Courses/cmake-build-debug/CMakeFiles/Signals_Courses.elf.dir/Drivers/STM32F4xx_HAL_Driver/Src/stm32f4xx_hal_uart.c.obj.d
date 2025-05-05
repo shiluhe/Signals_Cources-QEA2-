@@ -1,5 +1,5 @@
-CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: \
- C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c \
+CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: \
+ C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  C:\STM32_WorkSpace\Signals_Courses\Core\Inc/stm32f4xx_hal_conf.h \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \

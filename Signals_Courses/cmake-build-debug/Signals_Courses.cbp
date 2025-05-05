@@ -133,6 +133,9 @@
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Core/Inc/tim.h">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
+		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Core/Inc/usart.h">
+			<Option target="Signals_Courses.elf"/>
+		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Core/Src/adc.c">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
@@ -167,6 +170,9 @@
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Core/Src/tim.c">
+			<Option target="Signals_Courses.elf"/>
+		</Unit>
+		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Core/Src/usart.c">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Core/Startup/startup_stm32f407zgtx.s">
@@ -346,6 +352,9 @@
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
+		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Signals_Courses.elf"/>
+		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
@@ -380,6 +389,9 @@
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="Signals_Courses.elf"/>
+		</Unit>
+		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
@@ -446,6 +458,9 @@
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Signals_Courses.elf"/>
+		</Unit>
+		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="Signals_Courses.elf"/>
 		</Unit>
 		<Unit filename="C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">

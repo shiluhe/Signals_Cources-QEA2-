@@ -45,6 +45,7 @@ CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj: \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ C:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\atk_md0350\atk_md0350_font.h \
  C:\STM32_WorkSpace\Signals_Courses\Drivers\atk_md0350\atk_md0350.h \
  c:\progra~2\armgnu~1\125863~1.3re\arm-none-eabi\include\stdio.h \
