@@ -5,13 +5,13 @@
 # compile C with C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IC:\STM32_WorkSpace\Signals_Courses\Core\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Include -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\Third_Party\FreeRTOS\Source\include -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2 -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F -IC:\STM32_WorkSpace\Signals_Courses\Drivers
+ASM_INCLUDES = -IC:\STM32_WorkSpace\Signals_Courses\Core\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Include -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\ST\ARM\DSP\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers
 
 ASM_FLAGS = -g -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IC:\STM32_WorkSpace\Signals_Courses\Core\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Include -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\Third_Party\FreeRTOS\Source\include -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2 -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F -IC:\STM32_WorkSpace\Signals_Courses\Drivers
+C_INCLUDES = -IC:\STM32_WorkSpace\Signals_Courses\Core\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\STM32_WorkSpace\Signals_Courses\Drivers\CMSIS\Include -IC:\STM32_WorkSpace\Signals_Courses\Middlewares\ST\ARM\DSP\Inc -IC:\STM32_WorkSpace\Signals_Courses\Drivers
 
 C_FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 

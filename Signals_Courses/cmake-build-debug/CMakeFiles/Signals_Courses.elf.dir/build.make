@@ -666,6 +666,7 @@ Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/STM32F4xx_HAL_Dr
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/Drivers/atk_md0350/atk_md0350_fsmc.c.obj
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/build.make
+Signals_Courses.elf: C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a
 Signals_Courses.elf: CMakeFiles/Signals_Courses.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\STM32_WorkSpace\Signals_Courses\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable Signals_Courses.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Signals_Courses.elf.dir\link.txt --verbose=$(VERBOSE)

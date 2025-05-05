@@ -282,18 +282,59 @@ CMakeFiles/Signals_Courses.elf.dir/Core/Src/main.c.obj: C:/STM32_WorkSpace/Signa
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/tim.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/gpio.h \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/fsmc.h \
-  C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.h \
-  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/math.h \
-  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdio.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/newlib.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/config.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
-  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
-  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_ansi.h
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/math.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math_types.h \
+  C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_compiler.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/string.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_locale.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/strings.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/string.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/float.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include-fixed/limits.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math_memory.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/none.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math_types.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/utils.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/basic_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math_memory.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/none.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/utils.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/interpolation_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/bayes_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/statistics_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/basic_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/fast_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/matrix_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/complex_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/statistics_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/controller_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/support_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/distance_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/svm_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/svm_defines.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/fast_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/transform_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/complex_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/filtering_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/support_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/quaternion_math_functions.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_const_structs.h \
+  C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_common_tables.h
 
 CMakeFiles/Signals_Courses.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/STM32_WorkSpace/Signals_Courses/Core/Src/stm32f4xx_hal_msp.c \
   C:/STM32_WorkSpace/Signals_Courses/Core/Inc/main.h \
@@ -1592,6 +1633,8 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/a
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdio.h:
+
 C:/STM32_WorkSpace/Signals_Courses/Core/Inc/main.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_ansi.h:
@@ -1616,6 +1659,8 @@ C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/core_cm4.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Src/main.c:
 
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/fast_math_functions.h:
+
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Src/system_stm32f4xx.c:
@@ -1627,8 +1672,6 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/_newlib_version.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/features.h:
-
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/math.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c:
 
@@ -1652,7 +1695,11 @@ C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/cmsis_gcc.h:
 
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/strings.h:
+
 C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include/mpu_armv7.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/matrix_functions.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
 
@@ -1678,11 +1725,11 @@ C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h:
-
 C:/STM32_WorkSpace/Signals_Courses/Core/Inc/stm32f4xx_it.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
 
@@ -1716,9 +1763,11 @@ C:/STM32_WorkSpace/Signals_Courses/Core/Inc/fsmc.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Inc/tim.h:
 
-C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.h:
-
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/time.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/_time.h:
 
@@ -1728,9 +1777,67 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/lock.h:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/time.h:
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/stdio.h:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h:
+C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/quaternion_math_functions.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/math.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math_types.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/string.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_locale.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/string.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/float.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.c:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include-fixed/limits.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_math_memory.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/none.h:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_sigset.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/utils.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/basic_math_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/interpolation_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/bayes_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/statistics_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/complex_math_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/controller_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/support_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/distance_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/svm_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/svm_defines.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/transform_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/dsp/filtering_functions.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_const_structs.h:
+
+C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc/arm_common_tables.h:
 
 C:/STM32_WorkSpace/Signals_Courses/Core/Src/stm32f4xx_it.c:
 
@@ -1748,8 +1855,6 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/select.h:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_sigset.h:
-
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_timeval.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/timespec.h:
@@ -1762,23 +1867,15 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/types.h:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/_locale.h:
-
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdlib.h:
-
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/alloca.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/errno.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/errno.h:
-
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/stdio.h:
-
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/sys/stdio.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.3\ rel1/arm-none-eabi/include/signal.h:
 
@@ -1827,8 +1924,6 @@ C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c:
-
-C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350.c:
 
 C:/STM32_WorkSpace/Signals_Courses/Drivers/atk_md0350/atk_md0350_fsmc.h:
 

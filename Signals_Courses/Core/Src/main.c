@@ -27,8 +27,13 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stdio.h"
+
 #include "atk_md0350/atk_md0350.h"
 #include "math.h"
+
+#include "arm_math.h"
+#include "arm_const_structs.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -38,29 +43,165 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-uint32_t freq = 100;  // 全局频率变量
+uint32_t freq = 100;  // 全局频率
 
 uint16_t SinBuffer[200];
-#define PI 3.141592653589693
+//#define PI 3.141592653589793f
 void signalSin(){
     for(int i = 0; i < 200; i++){
-        SinBuffer[i] = (uint16_t)((sin(i*2*PI/200) + 1) * (4096.0/2.0) * (1.0/3.3));
+        SinBuffer[i] = (uint16_t)((sin(i*2*PI/200) + 1) * (4096.0/2.0) * (2/3.3));
         //SinBuffer[i] = (sin(i*2*PI/200)*0.5+0.5) * (4095.0/3.3);
         if (SinBuffer[i] > 4095) SinBuffer[i] = 4095;
     }
 }
 
+#define SAMPLING_RATE 100000.0f  // sampling_rate
+#define ADC_BUFFER_SIZE      4096
+#define FFT_SIZE             ADC_BUFFER_SIZE
+#define MAGNITUDE_THRESHOLD     0.02f
+#define PEAK_RATIO_THRESHOLD    1.5f
+#define WINDOW_SIZE             10
+
+#define ADC_REF_VOLTAGE      3.3f
+#define ADC_RESOLUTION       4095.0f
+
+uint16_t adc_buffer[ADC_BUFFER_SIZE];
+float voltage_buffer[ADC_BUFFER_SIZE];
+float complex_input[ADC_BUFFER_SIZE * 2];
+float fft_output[ADC_BUFFER_SIZE];
+float peak_frequencies[ADC_BUFFER_SIZE / 2];
+float peak_magnitudes[ADC_BUFFER_SIZE / 2];
+uint32_t peak_count = 0;
+
+#define AVG_WINDOW_SIZE 10
+static float amplitude_history[AVG_WINDOW_SIZE] = {0};
+static int history_index = 0;
+
+uint8_t ADC_Cplt_Flag = 0;         // 转换完成标志
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 
+
+void Process_FFT_and_Spectrum() {
+
+    // 1. 执行FFT-4096?
+    arm_cfft_f32(&arm_cfft_sR_f32_len4096, complex_input, 0, 1);
+    //计算幅度
+    arm_cmplx_mag_f32(complex_input, fft_output, FFT_SIZE);
+
+    // 3. 频谱分析：寻找有效峰
+    peak_count = 0;
+    for (int i = 1; i < FFT_SIZE / 2 - WINDOW_SIZE; i += WINDOW_SIZE) {
+        // 3.1 计算当前窗口的平均
+        float window_avg = 0;
+        for (int j = 0; j < WINDOW_SIZE; j++) {
+            window_avg += fft_output[i + j];
+        }
+        window_avg /= WINDOW_SIZE;
+
+        // 3.2 在窗口内寻找
+        float max_magnitude = 0;
+        int max_index = i;
+        for (int j = 0; j < WINDOW_SIZE; j++) {
+            if (fft_output[i + j] > max_magnitude && fft_output[i + j] >= MAGNITUDE_THRESHOLD) {
+                max_magnitude = fft_output[i + j];
+                max_index = i + j;
+            }
+        }
+
+        // 3.3查是否为有效
+        if (max_magnitude > 0) {
+            float neighbor_avg = 0;
+            int neighbor_count = 0;
+            for (int k = -5; k <= 5; k++) {
+                if (k != 0 && (max_index + k) >= 0 && (max_index + k) < FFT_SIZE / 2) {
+                    neighbor_avg += fft_output[max_index + k];
+                    neighbor_count++;
+                }
+            }
+            neighbor_avg /= neighbor_count;
+
+            if (max_magnitude >= neighbor_avg * PEAK_RATIO_THRESHOLD) {
+                peak_frequencies[peak_count] = (float)max_index * (SAMPLING_RATE / FFT_SIZE); // 频率=索引*频率分辨
+                peak_magnitudes[peak_count] = max_magnitude;
+                peak_count++;
+            }
+        }
+    }
+
+    // 4. 确定主频信号（幅度最高的峰�?�）
+    float main_freq = 0;
+    float main_magnitude = 0;
+    for (int i = 0; i < peak_count; i++) {
+        if (peak_magnitudes[i] > main_magnitude) {
+            main_magnitude = peak_magnitudes[i];
+            main_freq = peak_frequencies[i];
+        }
+    }
+
+    // 5. 计算信号幅度-DC分量×2
+    float dc_offset = fft_output[0] / FFT_SIZE;  // 直流分量归一
+    float signal_amplitude = dc_offset * 2;      // 幅度=直流×2
+//    float signal_amplitude = main_magnitude / (FFT_SIZE / 2);  // 归一
+    // 更新滑动平均缓冲
+    amplitude_history[history_index] = signal_amplitude;
+    history_index = (history_index + 1) % AVG_WINDOW_SIZE;
+
+    // 计算滑动平均
+    float smoothed_amplitude = 0;
+    for (int i = 0; i < AVG_WINDOW_SIZE; i++) {
+        smoothed_amplitude += amplitude_history[i];
+    }
+    smoothed_amplitude /= AVG_WINDOW_SIZE;
+
+    // 输出结果（可通过串口或LCD显示�????
+    //printf("Main Frequency: %.2f Hz, Amplitude: %.2f V\n", main_freq, signal_amplitude);
+    char freq_str[20];
+    snprintf(freq_str, sizeof(freq_str), "ADC_freq: %.3f", main_freq);
+    atk_md0350_show_string(60, 240, 150, 60, freq_str, ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
+
+    char amp_str[20];
+    snprintf(amp_str, sizeof(amp_str), "ADC_amplitude: %.3f", smoothed_amplitude*1.0);
+    atk_md0350_show_string(260, 240, 160, 60, amp_str, ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
+
+}
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+#define X_START 0
+#define X_END   480
+#define Y_START 0
+#define Y_END   200
 
+void Draw_On_TFT(){
+    int i;
+    int screen_width = X_END - X_START;
+    int screen_height = Y_END - Y_START;
+
+    // 避免除以零
+    if (ADC_BUFFER_SIZE < 2) return;
+
+    // 横轴步进
+    float x_step = (float)screen_width / (ADC_BUFFER_SIZE - 1);
+
+    // 绘图前清屏或清除区域（可选）
+    atk_md0350_fill(0, 0, 480, 215, ATK_MD0350_WHITE);
+
+    // 画波形点
+    for (i = 0; i < ADC_BUFFER_SIZE; i++) {
+        float voltage = voltage_buffer[i]; // 已经是 0~3.3V 之间的值
+        // 将 0~3.3V 映射到 Y_START~Y_END（注意屏幕 Y 坐标通常是向下递增的）
+        uint16_t y = Y_END - (uint16_t)((voltage / 3.3f) * screen_height);
+        uint16_t x = X_START + (uint16_t)(i * x_step);
+
+        // 简单画点（你也可以用连线算法画出平滑波形）
+        atk_md0350_draw_point(x, y, ATK_MD0350_BLACK); // 白色
+    }
+}
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -108,6 +249,7 @@ int main(void)
   MX_DAC_Init();
   MX_TIM7_Init();
   MX_ADC1_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
     HAL_Delay(100);
@@ -116,13 +258,16 @@ int main(void)
     signalSin();
     HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1, (uint32_t *)SinBuffer, 200, DAC_ALIGN_12B_R);
 
-//LED_Test
-//    HAL_GPIO_WritePin(GPIOF,GPIO_PIN_9,GPIO_PIN_SET);
-//    HAL_GPIO_WritePin(GPIOF,GPIO_PIN_10,GPIO_PIN_SET);
+    HAL_ADC_Start_DMA(&hadc1,(uint32_t *)adc_buffer,ADC_BUFFER_SIZE);
 
-    atk_md0350_show_string(30, 300, 160, 80, "Made by Shirley He", ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
-    atk_md0350_show_string(310, 280, 160, 80, "KEY2:freq_up_DAC", ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
-    atk_md0350_show_string(310, 300, 160, 80, "KEY0:freq_down_DAC", ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
+    //LED_Test
+    //    HAL_GPIO_WritePin(GPIOF,GPIO_PIN_9,GPIO_PIN_RESET);
+    //    HAL_GPIO_WritePin(GPIOF,GPIO_PIN_10,GPIO_PIN_RESET);
+
+    atk_md0350_show_string(20, 280, 240, 80, "Made by Shirley He", ATK_MD0350_LCD_FONT_24, ATK_MD0350_BLACK);
+    atk_md0350_show_string(310, 280, 160, 60, "KEY2:DAC_freq_up", ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
+    atk_md0350_show_string(310, 300, 160, 60, "KEY0:DAC_freq_down", ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
+    atk_md0350_draw_line(0, 220, 480, 220, ATK_MD0350_BLACK);
 //    atk_md0350_show_string(360, 300, 120, 120, "freq:100.00", ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
 
   /* USER CODE END 2 */
@@ -134,6 +279,28 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    if(ADC_Cplt_Flag == 1){
+        ADC_Cplt_Flag = 0;
+
+        // 1.ADC原始值转电压
+        for (int i = 0; i < ADC_BUFFER_SIZE; i++) {
+            voltage_buffer[i] = (adc_buffer[i] / 4095.0f) * 3.3f;
+        }
+
+        // 2.构�?�复数数�?
+        for (int i = 0; i < ADC_BUFFER_SIZE; i++) {
+            complex_input[2 * i] = voltage_buffer[i];
+            complex_input[2 * i + 1] = 0.0f;
+        }
+
+        // 3. 执行FFT和频谱分
+        Process_FFT_and_Spectrum();
+        Draw_On_TFT();
+
+        HAL_TIM_Base_Start(&htim3);
+        HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buffer, ADC_BUFFER_SIZE);
+
+    }
 
   }
   /* USER CODE END 3 */
@@ -186,9 +353,9 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-#define MIN_FREQ 100     // �???低频�???100Hz
-#define MAX_FREQ 10000   // �???高频�???10kHz
-#define FREQ_STEP 100    // 频率步进100Hz
+#define MIN_FREQ 100     // 低频100Hz
+#define MAX_FREQ 10000   // 高频10kHz
+#define FREQ_STEP 100    // 步进100Hz
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
@@ -223,20 +390,28 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
         }
     }
 
-    TIM7->ARR = (uint32_t)(422000.0f / freq + 0.0) - 1 ;
-
-    // 打印 ARR 的�??
+    TIM7->ARR = (uint32_t)(422000.0f / freq + 0.0) - 1 ;//tim7_tim_not_correct
+    // 打印 ARR
 //    char arr_str[20];
 //    snprintf(arr_str, sizeof(arr_str), "ARR: %lu", TIM7->ARR);
 //    atk_md0350_show_string(360, 300, 120, 120, arr_str, ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
-    // 可�?�：打印频率（freq�?
+    // freq
 //    char freq_str[20];
 //    snprintf(freq_str, sizeof(freq_str), "freq: %.2f", freq);
 //    atk_md0350_show_string(360, 320, 120, 120, freq_str, ATK_MD0350_LCD_FONT_16, ATK_MD0350_BLACK);
 }
 
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
+    //HAL_GPIO_WritePin(GPIOF,GPIO_PIN_9,GPIO_PIN_RESET);
+    atk_md0350_fill(0, 240, 480, 275, ATK_MD0350_WHITE);
+    if(hadc->Instance == ADC1){
+        HAL_TIM_Base_Stop(&htim3);//stop_tim3_convtick
+        HAL_ADC_Stop_DMA(&hadc1);  //stop_DMA
 
+        ADC_Cplt_Flag = 1;
 
+    }
+}
 /* USER CODE END 4 */
 
 /**

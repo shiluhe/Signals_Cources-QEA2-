@@ -29,9 +29,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/STM32_WorkSpace/Signals_Courses/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "C:/STM32_WorkSpace/Signals_Courses/Drivers/CMSIS/Include"
-  "C:/STM32_WorkSpace/Signals_Courses/Middlewares/Third_Party/FreeRTOS/Source/include"
-  "C:/STM32_WorkSpace/Signals_Courses/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
-  "C:/STM32_WorkSpace/Signals_Courses/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "C:/STM32_WorkSpace/Signals_Courses/Middlewares/ST/ARM/DSP/Inc"
   "C:/STM32_WorkSpace/Signals_Courses/Drivers"
   )
 
