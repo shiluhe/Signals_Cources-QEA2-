@@ -16,4 +16,8 @@
 
 ### 中期：信号测量仪+信号发生器（用clion使用DSP库要在CmakeLists.txt中链接一下库）
 
+### 演示视频链接如下：
+
+【如何用STM32做一个示波器？看这里！】 https://www.bilibili.com/video/BV1UzV1z8EQi/?share_source=copy_web&vd_source=e04fab70977b1b2117cf35c1a17faa06
+
 ### 后期：心电信号采集
