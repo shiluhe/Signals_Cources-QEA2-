@@ -1,0 +1,3 @@
+C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/BusyHeart/BusyHeart/cmake-build-debug/CMakeFiles/BusyHeart.elf.dir
+C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/BusyHeart/BusyHeart/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/BusyHeart/BusyHeart/cmake-build-debug/CMakeFiles/rebuild_cache.dir
