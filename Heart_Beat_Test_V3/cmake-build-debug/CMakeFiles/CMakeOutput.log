@@ -1,0 +1,272 @@
+The target system is: Generic - 1 - 
+The host system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/Heart_Beat_Test/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/Heart_Beat_Test/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 12.3.1 20230626
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/Heart_Beat_Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe cmTC_d640b && [1/2] Building C object CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d640b.dir/'
+ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.3/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d640b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\hslnb\AppData\Local\Temp\ccqq5Hji.s
+GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include"
+ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fb91a105811bc5825517df4b6b01bd08
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d640b.dir/'
+ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj C:\Users\hslnb\AppData\Local\Temp\ccqq5Hji.s
+GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627
+COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C static library libcmTC_d640b.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include-fixed;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/Heart_Beat_Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe cmTC_d640b && [1/2] Building C object CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d640b.dir/']
+  ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.3/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d640b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\hslnb\AppData\Local\Temp\ccqq5Hji.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fb91a105811bc5825517df4b6b01bd08]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d640b.dir/']
+  ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj C:\Users\hslnb\AppData\Local\Temp\ccqq5Hji.s]
+  ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627]
+  ignore line: [COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d640b.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C static library libcmTC_d640b.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/Heart_Beat_Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe cmTC_07d14 && [1/2] Building CXX object CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_07d14.dir/'
+ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.3/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_07d14.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\hslnb\AppData\Local\Temp\ccPYCTH6.s
+GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include"
+ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed
+ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e7b3f66350dc9cf5c9189807aa34626d
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_07d14.dir/'
+ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\hslnb\AppData\Local\Temp\ccPYCTH6.s
+GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627
+COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX static library libcmTC_07d14.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+    add: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include/c++/12.3.1]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include/c++/12.3.1/backward]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+  collapse include dir [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include/c++/12.3.1;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include/c++/12.3.1/arm-none-eabi;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include/c++/12.3.1/backward;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/lib/gcc/arm-none-eabi/12.3.1/include-fixed;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/hslnb/Documents/Tencent Files/2217574026/FileRecv/Heart_Beat_Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe cmTC_07d14 && [1/2] Building CXX object CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_07d14.dir/']
+  ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.3/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_07d14.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\hslnb\AppData\Local\Temp\ccPYCTH6.s]
+  ignore line: [GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/armgnu~1/125863~1.3re/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\armgnu~1\125863~1.3re\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+  ignore line: [ c:\progra~2\armgnu~1\125863~1.3re\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e7b3f66350dc9cf5c9189807aa34626d]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_07d14.dir/']
+  ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\hslnb\AppData\Local\Temp\ccPYCTH6.s]
+  ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627]
+  ignore line: [COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_07d14.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX static library libcmTC_07d14.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
